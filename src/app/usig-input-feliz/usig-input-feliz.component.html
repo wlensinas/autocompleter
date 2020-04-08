@@ -1,0 +1,10 @@
+<div class="App">
+    <div id="header">
+        <div id="logo">
+          <h1>USIG AutoCompleter (DEMO)</h1>
+          <input id="search-input" value="" [(ngModel)]="state.input" name="input" #input="ngModel" (change)="llamada(state.input)" /> 
+          <span id="ejemplo">ej.: Callao y Corrientes, Florida 550, Teatro San Martín, etc.</span>
+          {{state.suggestions}}
+        </div>
+    </div>
+  </div>
